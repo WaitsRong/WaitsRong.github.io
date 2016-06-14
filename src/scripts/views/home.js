@@ -58,7 +58,7 @@ SPA.defineView('home', {
     'show': function () {
     	var vm = this.getVM();
       $.ajax({
-        url: '/wobanglis/mock/livelist.json',
+        url: '/wobanglis/mock/liveList.json',
         success: function (res) {
           var data = res.data;
           var tempArr = [];
